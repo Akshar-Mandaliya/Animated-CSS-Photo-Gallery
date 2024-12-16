@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Photo Gallery</title>
+    <style>
+        body{
+            background-color: #000a1f;
+        }
+        .container{
+            margin: 100px 0 0 200px;
+            width: 70%;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .container img{
+            width: 30%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid rgba(255,255,255,0.6);
+            transition: all ease-in-out 0.5s;
+            border: red;
+        }
+        .container img:hover{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color:white;margin-top:20px;text-align: center;">Animated Css Photo Gallery</h2>
+    <div class="container">
+        <img src="hd.jpg">
+        <img src="hd2.jpg">
+        <img src="hd3.jpeg">
+        <img src="hd4.jpeg">
+    </div>
+</body>
+</html>
